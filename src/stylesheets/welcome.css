@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+
+body {
+  background: linear-gradient(to right, #2f2e96, #312e97, #4d3fca);
+}
+
+.content {
+  margin: 20px;
+  padding: 10px;
+}
+
+.show-list {
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.show-list span {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.show-list .heading-1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.2em;
+}
+
+.show-list p {
+  color: rgb(216, 216, 216);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.show-list .view-list-btn {
+  background: linear-gradient(to right, #405dbf, #64d5ed);
+  color: white;
+  width: 170px;
+  border-radius: 25px;
+  padding: 6px;
+  outline: none;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.show-list .img-div img {
+  border-radius: 20px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .show-list {
+    margin-top: 60px;
+    padding: 0px;
+  }
+
+  .show-list span {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .show-list .heading-1 {
+    color: white;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.2em;
+  }
+
+  .show-list p {
+    color: rgb(216, 216, 216);
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+  }
+
+  .show-list .img-div img {
+    border-radius: 20px;
+    margin-left: 0px;
+  }
+}

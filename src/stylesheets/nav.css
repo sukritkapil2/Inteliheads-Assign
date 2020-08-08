@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.navbar {
+  padding: 30px;
+  padding-right: 100px;
+}
+
+.navbar-nav li a {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 20px;
+    background-color: #312e97;
+  }
+}
