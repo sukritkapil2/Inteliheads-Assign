@@ -20,24 +20,32 @@ class Welcome extends React.Component {
                     <strong>Fetch Details With Single Click !</strong>
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    This the landing page of the website. The purpose is to show
+                    the data in a list view using React JS after fetching it
+                    from the API. The URL is
+                    https://5d11b2ce84e906001457646a.mockapi.io/testdata.
+                    Assigment for Inteliheads by - Sukrit
                   </p>
-                  <button className="view-list-btn mt-sm-5">View List</button>
+                  <button
+                    className="view-list-btn mt-sm-5"
+                    onClick={() => {
+                      window.location.href = "/list";
+                    }}
+                  >
+                    View List
+                  </button>
                 </div>
                 <div className="col-12 col-sm-4 mt-4 mt-sm-0 img-div">
                   <img
                     src="/assets/images/welcome.jpg"
                     className="img-fluid"
+                    alt="welcome"
                   ></img>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="image"></div>
       </div>
     );
   }

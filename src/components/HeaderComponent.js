@@ -5,7 +5,6 @@ class Header extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a className="navbar-brand text-white ml-lg-3" href="#"></a>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,22 +20,22 @@ class Header extends React.Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link text-white mr-4" href="#">
+              <a className="nav-link text-white mr-4" href="/">
                 HOME
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white mr-4" href="#">
+              <a className="nav-link text-white mr-4" href="/">
                 ABOUT US
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white mr-4" href="#">
+              <a className="nav-link text-white mr-4" href="/">
                 PORTFOLIO
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white mr-4" href="#">
+              <a className="nav-link text-white mr-4" href="/">
                 CONTACT US
               </a>
             </li>

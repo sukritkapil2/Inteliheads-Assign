@@ -30,7 +30,7 @@ body {
 }
 
 .show-list p {
-  color: rgb(216, 216, 216);
+  color: rgb(230, 230, 230);
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
@@ -46,10 +46,16 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.show-list .view-list-btn:hover {
+  background: white;
+  background-color: white;
+  color: #312e97;
+}
+
 .show-list .img-div img {
-  border-radius: 20px;
   border-bottom-left-radius: 100px;
   border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
   margin-left: 10px;
 }
 

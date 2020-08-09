@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.bg .content {
+  height: 100%;
+}
+
+.group-loading {
+  margin-left: 50%;
+  margin-top: 25%;
+}
+
+.group-loading .load-text {
+  transform: translate(-25px);
+  margin-top: 5px;
+  font-family: "Roboto";
+}
+
+.users {
+  float: right;
+}
+
+.user-list {
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+}
+
+.user-list span {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.user-list .heading-1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.2em;
+}
+
+.user-list p {
+  color: rgb(230, 230, 230);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.user-list .view-list-btn {
+  background: linear-gradient(to right, #405dbf, #64d5ed);
+  color: white;
+  width: 170px;
+  border-radius: 25px;
+  padding: 6px;
+  outline: none;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.user-list .view-list-btn:hover {
+  background: white;
+  background-color: white;
+  color: #312e97;
+}
+
+.user-list .img-div img {
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  margin-left: 10px;
+}
+
+.block-user {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 8px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.block-user .brief {
+  font-size: 14px;
+}
+
+.block-user:hover {
+  transform: scale(1.02);
+  background-color: #bfe8f1;
+  cursor: pointer;
+}
+
+.paginator {
+  float: left;
+  overflow: hidden;
+}
+
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+  color: white;
+}
+.pagination > .active > a {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: black;
+}
+
+.pagination > li > a {
+  border: 1px solid #ffffff;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  outline: none;
+  color: black;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #ffffff;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: unset;
+}
+
+@media screen and (max-width: 768px) {
+  .user-list {
+    margin-top: 60px;
+    padding: 0px;
+  }
+
+  .user-list span {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .user-list .heading-1 {
+    color: white;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.2em;
+  }
+
+  .user-list p {
+    color: rgb(216, 216, 216);
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+  }
+
+  .user-list .img-div img {
+    border-radius: 20px;
+    margin-left: 0px;
+  }
+}
